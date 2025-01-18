@@ -1,0 +1,1 @@
+SELECT * FROM employees WHERE department='Sales' AND (salary > 100000 OR salary IS NULL); -- This revised query includes rows where salary is NULL, addressing the original bug.  Alternatively, you can use IS NOT NULL to explicitly exclude NULL values if that's the desired behavior.
