@@ -1,0 +1,1 @@
+This repository contains a demonstration of a common SQL error involving NULL values in a WHERE clause. The 'bug.sql' file shows the flawed query, which omits rows with NULL salary values.  The 'bugSolution.sql' file provides the corrected query, demonstrating proper NULL handling.  This is crucial for ensuring accurate and complete query results.
